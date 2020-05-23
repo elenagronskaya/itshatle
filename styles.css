@@ -1,0 +1,25 @@
+H1{
+    color: rebeccapurple;
+    font-size: 45px;
+}
+p{
+    color: red;
+}
+.paragraph{
+    color: green;
+}
+.paragraph i {
+    color: blue;
+}
+
+ i {
+    color: pink;
+} 
+.paragraph b {
+
+    color:gray ;
+}
+
+b{
+    color: indigo;
+}

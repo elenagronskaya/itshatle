@@ -1,0 +1,49 @@
+h1{
+    color: blueviolet; font-size: medium;
+}
+li{
+    color: crimson; font-variant: unset;
+}
+span{
+    color: violet; font-size: larger;
+}
+ol{ 
+    color: green;
+
+}
+.task_description li{
+    color: greenyellow;
+}
+button{
+    color: indigo; font-size: medium;
+}
+input{
+    color: blue; font-size: x-large;
+}
+b{
+    color: chocolate;
+}
+.weather_type b {
+    color:yellow ;
+}
+option {
+    color: darkblue; font-style: italic;
+}
+h2 b {
+    color: darkcyan; font-size: larger;
+}
+article em {
+    color: maroon; font-size: xx-large;
+}
+article {
+    color: midnightblue; 
+}
+article pre{
+    color: olivedrab; font-size: larger;
+}
+footer {
+    color: navy;
+}
+footer i {
+    color: orange; font-size: xx-large;
+}

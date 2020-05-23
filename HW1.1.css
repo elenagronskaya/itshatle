@@ -1,0 +1,136 @@
+
+.navigation ul li {
+    display: inline;
+    padding: 20px;
+
+}
+    
+
+.navigation {
+    border: 1px solid olive;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    background-color: palegoldenrod;
+     box-sizing: border-box;
+    
+}
+.container {
+    width: 1000px;
+    min-height: 200px;
+    background: white;
+    margin-top: 112px;
+}
+ .block { 
+    width: 200px;
+    height: 200px;
+    background: yellowgreen;
+    margin: 0;
+    float: left;
+    box-sizing: border-box;
+    border: 2px solid;
+}
+.block1 {
+    border-color:  blue;
+    position: relative;
+    top: 30px;
+    left: 50px;
+
+}
+
+.block2 {
+    border-color:  red;
+    position: relative;
+    bottom: 20px;
+    right: 30px;
+}
+
+.block3 {
+    border-color:  orangered;
+    position: relative;
+    
+}
+
+.block4 {
+    border-color:  green;
+    position: relative;
+    
+    
+}
+
+.block5 {
+    border-color:  black;
+    position: relative;
+    
+}
+.block_bottom_right {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+}
+.block_bottom_left {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.block_top_left {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.container1 {
+    width: 800px;
+    min-height: 200px;
+    background: white;
+    margin: 50px;
+}
+.block8 { 
+    width: 200px;
+    height: 200px;
+    background: yellowgreen;
+    margin: 0;
+    float: left;
+    box-sizing: border-box;
+    
+}
+ 
+
+.block_red {
+     background-color: red;
+    
+}
+.block_blue {
+     background-color: blue;
+    
+}
+.block_green {
+     background-color: green;
+    
+}
+.block_gray {
+     background-color: grey;
+    
+}
+.block_black {
+     background-color: black;
+    
+}
+.block_pink {
+     background-color: pink;
+    
+}
+.block_orange {
+     background-color: orange;
+    
+}
+.block_yellow {
+     background-color: yellow;
+}
