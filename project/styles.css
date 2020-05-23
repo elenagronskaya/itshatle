@@ -317,6 +317,7 @@ iframe {
     margin-left: 199px;
     margin-right: 234px;
 }
+
 input.name {
     width: 273px;
     height: 65.86px;
@@ -336,8 +337,9 @@ input.mail {
 }
 .input_word {
     margin: 56px 231px 40px 203px;
+    
 }
-textarea {
+.input_word .message {
     width: 587px;
     height: 230px;
     left: 205px;
@@ -345,7 +347,60 @@ textarea {
     margin-top: 40px;
     background: #FFFFFF;
 }
-button {
+.input_word input {
+    border: 0;
+}
+
+.input_word textarea {
+    border: 0;
+}
+
+.input_word input::placeholder {
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    padding-left: 10px;
+
+    color: #5F5D5D;
+}
+
+.message::-webkit-input-placeholder {padding-top: 10px; padding-left: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #5F5D5D;
+}
+.message:-moz-placeholder { /* Firefox 18- */padding-top: 10px;padding-left: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #5F5D5D;
+}
+.message::-moz-placeholder {  /* Firefox 19+ */padding-top: 10px;padding-left: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #5F5D5D;
+}
+.message:-ms-input-placeholder {padding-top: 10px;padding-left: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #5F5D5D;
+}
+
+.want_section .sent {
     width: 190px;
     height: 72.45px;
     left: 396px;
@@ -363,21 +418,49 @@ button {
     outline: none;
     border: none;
     cursor: pointer;
-    margin: 40px 437px 0 397px;
+    margin: 40px 437px 56px 397px;
 
 }
-.work_section footer {
-
+.want_section footer {
+    width: 1024px;
+    height: 151px;
+    background: #34547A;
 }
-.copyrighttext {
-
+.copyright {
+    float: left;
+    margin-left: 150px;
+    margin-top: 50px;
 }
-.vk_container {
+.copyright h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    margin-top: 0;
+    color: #FFFFFF;
     
 }
+
+.copyright p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    margin-top: 0;
+    color: #FFFFFF;
+    
+}
+
 .vk_container {
+    float: right;
+    margin-top: 56px;
+    margin-right: 150px;
 
 }
 .vk_logo {
+    margin-right: 24px;
 
+}
+.vk_logo:last-child {
+    margin-right: 0;
 }
